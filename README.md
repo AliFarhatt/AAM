@@ -7,7 +7,7 @@ This guide will help you run everything **locally** on your computer
 ## 📁 Project Structure
 
 ```
-Tech-Collab/
+AAM/
 │
 ├── frontend/         # React JS app
 ├── backend/          # Laravel API
@@ -82,8 +82,8 @@ Follow these steps in order for a successful setup:
 ### 1️⃣ Clone the Project
 
 ```bash
-git clone https://github.com/jaafarhawli/Tech-Collab.git
-cd Tech-Collab
+git clone https://github.com/AliFarhatt/AAM
+cd AAM
 ```
 
 ---
@@ -103,11 +103,11 @@ Update the `.env` file as needed:
 - macOS: 
   ```bash
   mysql -u root -p
-  CREATE DATABASE tech_collab;
+  CREATE DATABASE AAM;
   ```
 
 - Windows:  
-  Use **phpMyAdmin** (from XAMPP) → Create a new database named `tech_collab`
+  Use **phpMyAdmin** (from XAMPP) → Create a new database named `AAM`
 
 #### Generate Laravel Key and Migrate DB
 
