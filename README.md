@@ -1,4 +1,4 @@
-# 🛠️ Tech Collab – Full Stack Project Setup Guide
+# 🛠️ AAM – Project Setup Guide
 
 This guide will help you run everything **locally** on your computer
 
@@ -93,25 +93,10 @@ cd Tech-Collab
 ```bash
 cd backend
 composer install
-cp .env.example .env
+copy .env.example .env
 ```
 
 Update the `.env` file as needed:
-
-- Make sure `DB_PORT`, `DB_USERNAME`, and `DB_PASSWORD` match your system setup.
-- Fill in **Mailgun credentials** under the following fields:
-  ```
-  MAIL_MAILER=smtp
-  MAIL_HOST=smtp.eu.mailgun.org
-  MAIL_PORT=587
-  MAIL_USERNAME=your_mailgun_username
-  MAIL_PASSWORD=your_mailgun_password
-  MAIL_ENCRYPTION=SSL
-  MAIL_FROM_ADDRESS=your_email@example.com
-  MAIL_FROM_NAME="Tech_Collab"
-  ```
-
-> 📨 **You need a [Mailgun](https://www.mailgun.com/) account** for sending emails. Once registered, you can find your credentials in your Mailgun dashboard.
 
 #### Create the Database
 
@@ -143,7 +128,7 @@ Your Laravel API will now be running on:
 ```bash
 cd ../frontend
 npm install
-cp .env.example .env
+copy .env.example .env
 npm run dev
 ```
 
